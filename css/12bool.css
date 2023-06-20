@@ -17,6 +17,20 @@
     flex-wrap: wrap;
 }
 
+/* Reset degli stili delle colonne - viene già applicato a tutte le classi che iniziano con "col-" senza doverlo scrivere in ciascuna */
+[class*="col-"] {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/* Creazione della colonna generica/jolly senza la divisione in dodicesimi */
+.col {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
 /* Creazione delle colonne (in tot. le colonne in una row sono 12 - es. col-1 = occupa 1/12 di spazio */
 .col-1 {
     flex-basis: calc(100% / 12);
