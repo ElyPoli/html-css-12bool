@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Classi di utilità */
-.justify-end {
-    justify-content: flex-end;
-}
-
 /* Creazione elemento container */
 .container {
     max-width: 1170px;
