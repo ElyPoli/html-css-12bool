@@ -1,7 +1,41 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
     border: 1px solid black;
+}
+
+[class*="col-"] {
+    border: 1px solid white;
+    background-color: #006cfa;
+    min-height: 70px;
+}
+
+.nested, .nested-col {
+    padding: 1rem;
+}
+
+.nested-col {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    min-height: 30px;
+}
+
+.nested-col > p {
+    line-height: 30px;
+    font-size: .8rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 70px;
+    white-space: nowrap;
 }
