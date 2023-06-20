@@ -10,6 +10,20 @@
     margin: 0 auto;
 }
 
+.container-s {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+/* Classi di utilità */
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
 /* Creazione elemento row - conterrà sempre le col. */
 .row {
     display: flex;
